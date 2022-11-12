@@ -74,8 +74,8 @@ function counter (displayResult){
     else;
     console.log (winCounter, lossCounter);
     gameOver(winCounter, lossCounter);
-    wCounter.textContent = winCounter;
-    lCounter.textContent = lossCounter;
+    wCounter.textContent = "You " + winCounter;
+    lCounter.textContent = "CPU " + lossCounter;
 }
 
 function gameOver (winCounter, lossCounter){
@@ -90,8 +90,8 @@ function gameOver (winCounter, lossCounter){
     winCounter = 0,
     lossCounter = 0
     console.log ("bruh2", winCounter, lossCounter)
-    wCounter.textContent = winCounter
-    lCounter.textContent = lossCounter
+    wCounter.textContent = "You " + winCounter
+    lCounter.textContent = "CPU " + lossCounter 
  }
 
  function resetGame (){
